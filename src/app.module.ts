@@ -7,7 +7,7 @@ import { ProductsModule } from './products/products.module';
 @Module({
   imports: [
     MongooseModule.forRoot(
-      'mongodb+srv://emily:l1Emisor1401@cluster0.7oibi.mongodb.net/api-menuiserie?retryWrites=true&w=majority',
+      'mongodb+srv://',
       {
         autoCreate: true,
       },
